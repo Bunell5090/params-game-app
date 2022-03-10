@@ -7,8 +7,11 @@ class ParamsController < ApplicationController
   def first_letter_params
     if params["name"].upcase.first == "A"
       render json: {message: "Hey your name starts with the first letter of the alphabet!"}
+    else
+      render json: {message: "Hey your name doesn't start with the first letter of the alphabet"}
     end  
+
   end
 
-  
+
 end
