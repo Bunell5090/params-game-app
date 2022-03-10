@@ -12,7 +12,7 @@ class GamesController < ApplicationController
 
   def number_game
     user_number_choice = params["user_number"].to_i
-    winning_number = 36
+    winning_number = 21
     if user_number_choice < winning_number
       output_message = "You guessed too low, guess higher!"
     elsif user_number_choice > winning_number

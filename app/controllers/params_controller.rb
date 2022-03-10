@@ -11,9 +11,7 @@ class ParamsController < ApplicationController
       render json: {message: "The url segment is #{input_value}"}
     end
 
-    def guess_a_number
-
-    end
+   
 
     
   end
