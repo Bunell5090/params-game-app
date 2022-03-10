@@ -1,15 +1,13 @@
 class GamesController < ApplicationController
 
 
-    def first_letter_params
-      if params["name"].upcase.first == "A"
-        render json: {message: "Hey your name starts with the first letter of the alphabet!"}
-      else
-        render json: {message: "Hey your name doesn't start with the first letter of the alphabet"}
-      end 
+  def first_letter_params
+    if params["name"].upcase.first == "A"
+      render json: {message: "Hey your name starts with the first letter of the alphabet!"}
+    else
+      render json: {message: "Hey your name doesn't start with the first letter of the alphabet"}
+    end 
 
-    
-    render json: {message: "Your name is #{user_given_name}. #{output_message}"}
   end
 
   def number_game
