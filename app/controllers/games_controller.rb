@@ -1,6 +1,5 @@
 class GamesController < ApplicationController
 
-  def name_game
 
     def first_letter_params
       if params["name"].upcase.first == "A"

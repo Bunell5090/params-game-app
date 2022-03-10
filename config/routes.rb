@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   
   get "/query_params" => "params#query_params"
-  get "/first_letter_params" => "params#first_letter_params"
+  get  => "params#"
   get "/url_segment_params/:variable" => "params_examples#url_segment"
-  get "/name", controller: "games", action: "name_game"
+  get "/first_letter_params", controller: "games", action: "first_letter_params"
   get "/number_game" => "games#number_game"
 end
