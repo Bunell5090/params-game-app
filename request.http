@@ -7,6 +7,7 @@ POST http://localhost:3000/body_params
 content-type: application/json
 {
   "user_email": "ben@test.com",
+  "username": "hugh",
   "user_ssn": "123-45-6789",
-  "password": "123456"
+  "password": "swordfish"
 }
