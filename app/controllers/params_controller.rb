@@ -21,11 +21,7 @@ class ParamsController < ApplicationController
       render json: {message: "Valid credentials"}
     else
       render json: {message: "Invalid credentials"}    
-  end
-
-   
-
-    
+    end
   end
 
 

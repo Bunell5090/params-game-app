@@ -1,10 +1,6 @@
-GET http://localhost:3000/query_params?name=Ben
-
-GET http://localhost:3000/url_segment_params/test
-
-
 POST http://localhost:3000/body_params
 content-type: application/json
+
 {
   "user_email": "ben@test.com",
   "username": "hugh",
