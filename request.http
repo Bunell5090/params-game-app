@@ -1,3 +1,10 @@
+###query params
+GET http://localhost:3000/query_params?name=Ben
+
+### url segment params
+GET http://localhost:3000/url_segment_params/test
+
+### body params
 POST http://localhost:3000/body_params
 content-type: application/json
 
